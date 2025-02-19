@@ -1,0 +1,52 @@
+@import 'normalize.css';
+
+:root {
+    --color-header: #333333;
+    --color-header-navbar: #2d2d2d;
+    --color-main: #1a1a1a;
+    --color-red: #c58560;
+    --color-white: #ffffff; 
+    --color-main-img: #181818;
+    --height-main1-home: 3420px;
+    --height-main2-product: 2130px;
+    --height-main3-detail: 1930px;
+ }
+ 
+ 
+html {
+     font-size: 62.5%;
+     line-height: 1.6rem;
+     margin: 0;
+     padding: 0;
+    }
+    
+body {
+    font-family: Arial, Tahoma;
+    text-rendering: optimizeSpeed;//giúp cải thiện tốc độ hiện hiện thị phông chữ 1 cách nhanh nhất 
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+header  {
+    background-color: #333333;
+    height: 137px;
+    
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    right: 0;
+    a{
+        text-decoration: none;
+        color: var(--color-white);
+    }
+}
+
+.container {
+    max-width: 980px !important;
+}
